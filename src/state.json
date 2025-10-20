@@ -1,0 +1,295 @@
+{
+  "sheetsById": {
+    "Main": {
+      "staticOverrides": {
+        "byObject": {
+          "MyCircle": {
+            "cx": 124.05063291139248,
+            "cy": 205.0632911392405,
+            "r": 45.189873417721515,
+            "fill": {
+              "r": 0,
+              "g": 1,
+              "b": 0.07058823529411765,
+              "a": 1
+            }
+          },
+          "MyCrown": {
+            "width": 0.39,
+            "division": 1,
+            "phaseShifted": false
+          },
+          "Crown1": {
+            "division": 16,
+            "width": 0.5,
+            "theta": 0,
+            "phaseShifted": false,
+            "period": 32
+          },
+          "Crown3": {
+            "division": 14,
+            "width": 0.4999999999999996,
+            "period": 32
+          },
+          "Crown2": {
+            "phaseShifted": false
+          }
+        }
+      },
+      "sequence": {
+        "subUnitsPerUnit": 30,
+        "length": 10,
+        "type": "PositionalSequence",
+        "tracksByObject": {
+          "MyCircle": {
+            "trackData": {
+              "Ybrsr31a-X": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "MyCircle:[\"cx\"]",
+                "keyframes": [
+                  {
+                    "id": "P8zQHQCSis",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.55,
+                      0.085
+                    ],
+                    "type": "bezier",
+                    "value": 334.17721518987344
+                  },
+                  {
+                    "id": "JGYJkoyZRl",
+                    "position": 2,
+                    "connectedRight": true,
+                    "handles": [
+                      0.68,
+                      0.53,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 124.05063291139248
+                  }
+                ]
+              },
+              "Efjuskz_yJ": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "MyCircle:[\"cy\"]",
+                "keyframes": []
+              },
+              "rHgqHTo1Ki": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "MyCircle:[\"r\"]",
+                "keyframes": [
+                  {
+                    "id": "ZXDIuJXQ2s",
+                    "position": -0.133,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 45.189873417721515
+                  },
+                  {
+                    "id": "ZlkIakVmXD",
+                    "position": 3.7,
+                    "connectedRight": true,
+                    "handles": [
+                      0.4877706757109314,
+                      1.015625,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 98.10126582278482
+                  }
+                ]
+              },
+              "EEqKtOHJaZ": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "MyCircle:[\"fill\"]",
+                "keyframes": []
+              }
+            },
+            "trackIdByPropPath": {
+              "[\"cx\"]": "Ybrsr31a-X",
+              "[\"cy\"]": "Efjuskz_yJ",
+              "[\"r\"]": "rHgqHTo1Ki",
+              "[\"fill\"]": "EEqKtOHJaZ"
+            }
+          },
+          "MyCrown": {
+            "trackData": {
+              "xPqhcdBqGo": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "MyCrown:[\"width\"]",
+                "keyframes": [
+                  {
+                    "id": "B46IGN_CGJ",
+                    "position": 0.8,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 0.8913385826771657
+                  },
+                  {
+                    "id": "NJ3x8Bm0Js",
+                    "position": 4.833,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 0.15607911215822434
+                  },
+                  {
+                    "id": "eLvyf6MP_X",
+                    "position": 9.833,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 0.52
+                  }
+                ]
+              },
+              "YZ1x63hxxq": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "MyCrown:[\"division\"]",
+                "keyframes": [
+                  {
+                    "id": "1PoCA5sr-_",
+                    "position": 2.933,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.25,
+                      0.46
+                    ],
+                    "type": "bezier",
+                    "value": 1
+                  },
+                  {
+                    "id": "P9LkU-9a2I",
+                    "position": 7.967,
+                    "connectedRight": true,
+                    "handles": [
+                      0.45,
+                      0.94,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 20
+                  }
+                ]
+              }
+            },
+            "trackIdByPropPath": {
+              "[\"width\"]": "xPqhcdBqGo",
+              "[\"division\"]": "YZ1x63hxxq"
+            }
+          },
+          "Crown3": {
+            "trackData": {
+              "-BRhW9bQMn": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Crown3:[\"division\"]",
+                "keyframes": [
+                  {
+                    "id": "wCjjxunSuA",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 1
+                  }
+                ]
+              }
+            },
+            "trackIdByPropPath": {
+              "[\"division\"]": "-BRhW9bQMn"
+            }
+          },
+          "Crown1": {
+            "trackData": {
+              "GGkmB7HaRh": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Crown1:[\"division\"]",
+                "keyframes": [
+                  {
+                    "id": "Ge1XHY0Cb7",
+                    "position": 0,
+                    "connectedRight": true,
+                    "handles": [
+                      0.5,
+                      1,
+                      0.5,
+                      0
+                    ],
+                    "type": "bezier",
+                    "value": 1
+                  }
+                ]
+              }
+            },
+            "trackIdByPropPath": {
+              "[\"division\"]": "GGkmB7HaRh"
+            }
+          },
+          "Crown2": {
+            "trackData": {
+              "Eku3UNpXmP": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Crown2:[\"period\"]",
+                "keyframes": []
+              },
+              "iA_zY3svDI": {
+                "type": "BasicKeyframedTrack",
+                "__debugName": "Crown2:[\"width\"]",
+                "keyframes": []
+              }
+            },
+            "trackIdByPropPath": {
+              "[\"period\"]": "Eku3UNpXmP",
+              "[\"width\"]": "iA_zY3svDI"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitionVersion": "0.4.0",
+  "revisionHistory": [
+    "fZgxNllt6kBXs2jr",
+    "fwkJN6AocOPhW5dg",
+    "mE3G6Ya6ZkgBG6yd",
+    "JQ-i4d7zNtMjUl5A",
+    "P_U5t2ebutI27P7U"
+  ]
+}
